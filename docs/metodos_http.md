@@ -43,3 +43,19 @@
   ![Ejemplo PATCH Thunder Client](./img/img4.png)
 
 ---
+
+## 5. DELETE
+
+*Para qué sirve:* Elimina un recurso.
+* *URL:* https://jsonplaceholder.typicode.com/posts/1
+* *Body:* Ninguno
+* *Respuesta:* 200 OK
+* *Captura:*
+  ![Ejemplo DELETE Thunder Client](./img/img5.png)
+
+---
+
+## Diferencia entre PUT y PATCH
+
+* *PUT:* Funciona como un reemplazo total. Tienes que enviar el objeto entero con todos sus campos. Si olvidas mandar algún dato, este se borrará o quedará vacío en el servidor.
+* *PATCH:* Funciona como una actualización quirúrgica o parcial. Solo envías los campos específicos que deseas cambiar (por ejemplo, solo el título), y el resto del registro se mantiene intacto.
