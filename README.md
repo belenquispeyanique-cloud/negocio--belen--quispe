@@ -1,6 +1,6 @@
 # DATOS PERSONALES
 
-- **Apellido:** Quuispe Yanique 
+- **Apellido:** Quispe Yanique 
 - **Nombre:** Belen
 - **Paralelo:** INF-133 par"B"
 - **Carnet de identidad (CI):** 14108598
