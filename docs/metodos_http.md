@@ -32,3 +32,14 @@
   ![Ejemplo PUT Thunder Client](./img/img3.png)
 
 ---
+
+## 4. PATCH
+
+*Para qué sirve:* Modifica solo algunos datos (parcial).
+* *URL:* https://jsonplaceholder.typicode.com/posts/1
+* *Body:* {"title": "Nuevo título"}
+* *Respuesta:* 200 OK
+* *Captura:*
+  ![Ejemplo PATCH Thunder Client](./img/img4.png)
+
+---
