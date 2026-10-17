@@ -16,3 +16,11 @@ INSERT INTO productos (nombre, categoria_id, precio, stock) VALUES
 ('Mantequilla 250g', 1, 12.50, 18),
 ('Biscuits', 3, 5.00, 22),
 ('Churrasco Especial', 2, 55.00, 3);
+
+INSERT INTO clientes (nombre, telefono, email) VALUES 
+('Pedro Rojas', '76612345', 'pedro@email.com'),
+('Lucia Mendez', '77723456', 'lucia@email.com'),
+('Jorge Vargas', '78834567', 'jorge@email.com'),
+('Carmen Silva', '79945678', 'carmen@email.com'),
+('Raul Castro', '70156789', 'raul@email.com'),
+('Elena Rios', '71267890', 'elena@email.com');
