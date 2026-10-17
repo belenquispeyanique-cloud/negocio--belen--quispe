@@ -24,3 +24,15 @@ INSERT INTO clientes (nombre, telefono, email) VALUES
 ('Carmen Silva', '79945678', 'carmen@email.com'),
 ('Raul Castro', '70156789', 'raul@email.com'),
 ('Elena Rios', '71267890', 'elena@email.com');
+
+INSERT INTO pedidos (cliente_id, fecha, estado) VALUES 
+(1, '2026-10-10', 'Completado'),
+(1, '2026-10-11', 'Pendiente'),
+(2, '2026-10-12', 'Completado'),
+(3, '2026-10-13', 'Cancelado'),
+(4, '2026-10-14', 'Completado'),
+(5, '2026-10-15', 'Completado'),
+(6, '2026-10-16', 'Pendiente'),
+(2, '2026-10-16', 'Completado'),
+(3, '2026-10-17', 'Completado'),
+(4, '2026-10-17', 'Completado');
