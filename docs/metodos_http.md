@@ -21,3 +21,14 @@
   ![Ejemplo POST Thunder Client](./img/img2.png)
 
 ---
+
+## 3. PUT
+
+*Para qué sirve:* Reemplaza un recurso completo.
+* *URL:* https://jsonplaceholder.typicode.com/posts/1
+* *Body:* {"id": 1, "title": "Actualizado", "body": "Texto", "userId": 1}
+* *Respuesta:* 200 OK
+* *Captura:*
+  ![Ejemplo PUT Thunder Client](./img/img3.png)
+
+---
